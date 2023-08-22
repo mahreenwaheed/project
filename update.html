@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div {
+            background-color: rgb(210, 114, 219);
+            text-align: center;
+            padding: 300px;
+    text-decoration: none;
+    font-size: 17px;
+    color: aliceblue;      
+        }
+ .container {
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+padding: 50px 50px;
+box-shadow: 7px 7px 60px(rgb(189, 114, 219));
+width: 380px;
+font-size: 20px;
+
+ 
+}
+    </style>
+</head>
+
+<body>
+
+  
+ 
+   <div>
+    <form  action="update.php"   method="POST"    >
+        <div class="container">
+ <label for="id">Enter your id</label>
+<input type="text"   name = "id" required >
+<br>
+<br>
+<input   type="submit" name = "create" value="update">
+<button  type="submit" name="create" value="delete" > <a href="delete signup.html"> delete</a></button>
+
+
+</div>
+</form>
+
+</body>
+</html>
